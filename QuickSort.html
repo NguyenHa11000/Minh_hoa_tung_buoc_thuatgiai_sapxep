@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Toán rời rạc nâng cao</title>
+    <link rel="stylesheet" href="styleQuickSort.css">
+    <link rel="stylesheet" href="col.css">
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li><a href="#">Quick sort</a></li>
+            <li><a href="HeapSort.html">Heap sort</a></li>
+            <li><a href="MergeSort.html">Merge sort</a></li>
+        </ul>
+    </header>
+    <h1 id="h1-title">Quick Sort</h1>
+    <div>
+        <div id="warning"></div>
+        <div id="divinp">Nhập số <input id="inp" type="text"><input id="btn" type="button" value="Bắt đầu" onclick=Start()></div>
+    </div>
+    <div>
+        <div id="content"></div>
+    </div>
+    <div id="AfterClick">
+        <div class="section group">
+            <div class="col span_1_of_2">
+                <div id="headerCode">Chú thích</div>
+                <div id="BlockCode">
+                    <p id="Code1">pivotIndex = </p>
+                    <p id="Code2">pivot = </p>    
+                    <p id="Code3">LeftpivotIndex = </p>      
+                    <p id="Code4"></p> 
+                </div>
+            </div>
+            <div class="col span_1_of_2">
+                <div id="headerCode">Bước lặp</div>
+                <div id="BlockCode">
+                    <p id="Code5">for(i = pivot + 1 ; i &#60;= lengthRightIndex ; i++)</p>
+                    <p id="Code6">&#160; &#160; &#160;if(list[i] < pivot)</p>     
+                    <p id="Code7">&#160; &#160; &#160; &#160; &#160; &#160;then Swap(list[i],list[LeftpivotIndex]);LeftpivotIndex++</p>  
+                    <p id="Code8">&#160; &#160; &#160;Swap(pivot,list[LeftpivotIndex-1]);</p>  
+                </div>
+            </div>
+        </div>
+        <div>
+            <input id="btn" type="button" value="Bước trước" onclick=Previous()>
+            <input id="btn" type="button" value="Bước tiếp" onclick=Next()>
+        </div>
+    </div>   
+    <script src="QuickSort.js"></script>
+</body>
+
+</html>

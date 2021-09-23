@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#h1-title{  
+    text-align: center;
+}
+
+header{
+    padding: 20px;
+    background-color: #541616;
+}
+
+header ul{
+    margin: 10px 0;
+    text-align: center;
+}
+
+header ul li{
+    margin: 10px 20px;
+    display: inline-block;
+}
+
+header ul li a{
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+}
+div{
+    text-align: center;
+    margin:100px auto;
+    
+}
+
+#warning{
+    margin: -30px 10px auto;
+    color:red;
+}
+
+#divinp{
+    margin: -50px 0px auto;
+}
+
+p{
+    margin:10px;
+    text-align: left;
+}
+
+#inp{
+    width: 500px;
+}
+
+input{  
+    margin-right: 10px;
+}
+
+#content{
+    width: 75%;
+    padding: 20px;
+    text-align: center;
+}
+
+#content p{
+    display: inline-block;
+}
+
+.circle {
+    border: 0.1875em solid #0F1C3F;
+    border-radius: 50%;
+    /*height và width giảm 1 thì padding-top giảm 0.4*/
+    height: 4em;
+    width: 4em;
+    padding-top: 1.4em;
+    margin: auto;
+    text-align: center;
+}
+
+#BlockCode{
+    width:70%;
+    margin:auto;
+    margin-top: -90px;
+    border: 2px solid gray;
+}
+
+#headerCode{
+    text-align:left;
+    
+    margin-left:150px;
+}
+
+#headerCode2{
+    text-align:left;
+    margin-left:250px;
+}
+
+.section.group{
+    margin-top: -200px;
+}
+
+#AfterClick{
+    display:none;
+}
+
+
+/*  SECTIONS  ============================================================================= */
+
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  GRID COLUMN SETUP   ==================================================================== */
+
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+
+.col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+
+
+/*  GROUPING  ============================================================================= */
+
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+
+/*  GRID OF TWO   ============================================================================= */
+
+
+.span_2_of_2 {
+	width: 100%;
+}
+
+.span_1_of_2 {
+	width: 49.2%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.span_2_of_2 {
+		width: 100%; 
+	}
+	.span_1_of_2 {
+		width: 100%; 
+	}
+}

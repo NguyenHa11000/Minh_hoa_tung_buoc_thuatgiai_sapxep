@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Toán rời rạc nâng cao</title>
+    <link rel="stylesheet" href="styleHeapSort.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="QuickSort.html">Quick sort</a></li>
+            <li><a href="#">Heap sort</a></li>
+            <li><a href="MergeSort.html">Merge sort</a></li>
+        </ul>
+    </header>
+    <h1 id="h1-title">Heap Sort</h1>
+    <div>
+        <div id="warning"></div>
+        <div id="divinp">Nhập số <input id="inp" type="text"><input id="btn" type="button" value="Bắt đầu" onclick=Start()></div>
+    </div>
+    <div>
+        <div id="content"></div>
+    </div>
+    <div id="AfterClick">
+        <div class="section group">
+            <div class="col span_1_of_2">
+                <div id="headerCode">Chú thích</div>
+                <div id="BlockCode">
+                    <P id="Code0"></p>
+                    <p id="Code1">max = </p>
+                    <p id="Code2">left = </p>    
+                    <p id="Code3">right = </p>      
+                    <p id="Code4"></p>
+                    <p id="Code5"></p> 
+                </div>
+            </div>
+            <div class="col span_1_of_2">
+                <div id="headerCode">Bước lặp</div>
+                <div id="BlockCode">
+                    <p id="Code6">for(left < arrLength && input[left] > input[max])</p>
+                    <p id="Code7">&#160; &#160; max = left</p> 
+                    <p id="Code8">for(right < arrLength && input[right] > input[max])</p>      
+                    <p id="Code9">&#160; &#160; max = right</p>  
+                    <p id="Code10">swap()</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <input id="btn" type="button" value="Bước trước" onclick=Previous()>
+            <input id="btn" type="button" value="Bước tiếp" onclick=Next()>
+        </div>
+    <div>
+    <script src="HeapSort.js"></script>
+</body>
+</html>

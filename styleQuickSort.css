@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#h1-title{
+    text-align: center;
+}
+
+header{
+    padding: 10px;
+    background-color: #541616;
+}
+
+header ul{
+    margin: 10px 0;
+    text-align: center;
+}
+
+header ul li{
+    margin: 10px 20px;
+    display: inline-block;
+}
+
+header ul li a{
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+}
+
+div{
+    text-align: center;
+    margin:100px auto;
+    
+}
+
+#warning{
+    margin: -30px 10px auto;
+    color:red;
+}
+
+#divinp{
+    margin: -50px 0px auto;
+}
+
+p{
+    margin:10px;
+    text-align: left;
+}
+
+#inp{
+    width: 500px;
+}
+
+input{  
+    margin-right: 10px;
+}
+
+#content{
+    width: 75%;
+    padding: 15px;
+    text-align: center;
+}
+
+#content p{
+    display: inline-block;
+}
+
+.circle {
+    border: 0.1875em solid #0F1C3F;
+    border-radius: 50%;
+    /*height và width giảm 1 thì padding-top giảm 0.4*/
+    height: 4em;
+    width: 4em;
+    padding-top: 1.4em;
+    margin: auto;
+    text-align: center;
+}
+
+#BlockCode{
+    width:70%;
+    margin:auto;
+    margin-top: -90px;
+    border: 2px solid gray;
+}
+
+#headerCode{
+    text-align:left;
+    
+    margin-left:150px;
+}
+
+#headerCode2{
+    text-align:left;
+    margin-left:250px;
+}
+
+.section.group{
+    margin-top: -200px;
+}
+
+#AfterClick{
+    display:none;
+}
